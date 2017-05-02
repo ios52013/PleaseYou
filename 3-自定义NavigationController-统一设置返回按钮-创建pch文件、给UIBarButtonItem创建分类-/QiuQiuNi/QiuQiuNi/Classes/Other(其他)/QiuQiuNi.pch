@@ -1,0 +1,25 @@
+//
+//  QiuQiuNi.pch
+//  QiuQiuNi
+//
+//  Created by 黄永锐 on 2017/4/25.
+//  Copyright © 2017年 LoveQi. All rights reserved.
+//
+
+#ifndef QiuQiuNi_pch
+#define QiuQiuNi_pch
+
+
+//常用宏定义
+#ifdef DEBUG // 调试
+#define HYRLog(...) NSLog(__VA_ARGS__)
+#else // 发布
+#define HYRLog(...)
+#endif
+
+//常用头文件
+#import "UIBarButtonItem+Item.h"
+
+
+
+#endif /* QiuQiuNi_pch */
